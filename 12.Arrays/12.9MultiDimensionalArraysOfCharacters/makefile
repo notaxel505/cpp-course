@@ -2,7 +2,7 @@
 CXX = g++
 
 # Compiler options
-CXXFLAGS = -Wall -std=c++20
+CXXFLAGS = -Wall -std=c++23
 
 # Source files and target executable name
 SRC = main.cpp

@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <iostream>
 
 int main() {
@@ -9,14 +10,13 @@ int main() {
                               {'R', 'o', 'd', 'r', 'i', 'g', 'u', 'e', 'z'}};
 
   // Printing out like this is unsafe : may go over and print outside your valid
-  // memory block block until a terminating null character is encountered.
-
+  // memory block block until a terminating null character is encountered. 
   std::cout << "std::size(members) : " << std::size(members) << std::endl;
 
   for (size_t i{}; i < std::size(members); ++i) {
     std::cout << "members[" << i << "] : " << members[i] << std::endl;
   }
-  std::cout << "-------------------------------------" << std::endl;
+  printf("-------------------------------------\n");
 
   // Can loop around manually printing out each character
   for (size_t x{}; x < std::size(members); ++x) {
