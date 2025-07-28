@@ -1,0 +1,18 @@
+# Files compilation
+*.o
+*.out
+*.exe
+
+# Executable Files
+*main
+
+# Temporal Files
+*.log
+*.tmp
+
+# Files System
+.DS_Store
+Thumbs.db
+
+# Local Settings
+.vscode/
